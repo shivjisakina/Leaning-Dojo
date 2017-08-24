@@ -35,13 +35,19 @@
             myModule.restoreText('greeting');
         }, 3000);
     });
-    require([
+
+    // Basic
+
+    /*require([
         'dojo/dom',
         'dojo/domReady!'
     ], function (dom) {
         var greeting = dom.byId('greeting');
         greeting.innerHTML += ' from Dojo!';
-    });
+    });*/
+
+    // With Animation using .slideTo
+
     require([
         'dojo/dom',
         'dojo/fx',
